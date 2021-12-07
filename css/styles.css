@@ -2,22 +2,54 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid yellow;
 }
 
 header {
-  border: 1px solid purple;
+  border: 3px solid purple;
+  background-color: aqua;
+  margin: 3px;
+  padding: 3px;
 }
 
 nav {
+  border: 3px solid green;
+  margin: 3px;
+  padding: 3px;
+}
+
+div {
+  border: 2px solid blue;
+  margin: 5px;
+  padding: 5px;
+}
+
+padding {
   border: 1px solid green;
 }
 
+#imgdiv {
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid teal;
+  color: teal;
+}
+
+#viddiv {
+  margin: 10px;
+  padding: 20px;
+}
+
+footer {
+  border: 3px solid burlywood;
+  margin: 10px;
+  padding: 10px;
+}
+
 .dropbtn {
-    background-color: rgb(255, 57, 57);
+    background-color: rgb(57, 77, 255);
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 12px;
+    font-size: 12px;
     border: none;
   }
   
