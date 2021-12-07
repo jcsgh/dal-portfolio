@@ -1,5 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid yellow;
+}
+
+header {
+  border: 1px solid purple;
+}
+
+nav {
+  border: 1px solid green;
+}
+
 .dropbtn {
-    background-color: #aa7e04;
+    background-color: rgb(255, 57, 57);
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -31,4 +46,4 @@
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #c0af61;}
+  .dropdown:hover .dropbtn {background-color: rgb(252, 139, 139);}
