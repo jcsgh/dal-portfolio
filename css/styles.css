@@ -79,3 +79,16 @@ footer {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: rgb(252, 139, 139);}
+
+  input[type=text]:focus {
+
+    background-color: aqua;
+    width: 100;
+    transition: 2s;
+
+  }
+
+  input[type=submit]:hover {
+    background-color: aqua;
+    border: solid;
+  }
