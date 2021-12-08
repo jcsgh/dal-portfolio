@@ -88,6 +88,13 @@ footer {
 
   }
 
+  input[type=text]:hover {
+
+    background-color: aqua;
+    transition: 2s;
+
+  }
+
   input[type=submit]:hover {
     background-color: aqua;
     border: solid;
