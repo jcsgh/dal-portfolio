@@ -32,11 +32,36 @@ padding {
   padding: 10px;
   border: 3px solid teal;
   color: teal;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 1;
+}
+
+#imgdiv img {
+  background-position: center;
+  width: 50%;
+  height: auto;
+  background-size: auto;
+}
+
+#imgdiv p {
+  color: black;
 }
 
 #viddiv {
   margin: 10px;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#viddiv video {
+  width: 50%;
+  height: auto;
+  background-position: center;
 }
 
 footer {
@@ -63,18 +88,18 @@ footer {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 8px 16px 10px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a {
-    color: black;
+    color: lightgreen;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: black;}
   
   .dropdown:hover .dropdown-content {display: block;}
   
