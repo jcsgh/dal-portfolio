@@ -37,6 +37,8 @@ padding {
   align-items: center;
   text-align: center;
   flex-shrink: 1;
+  display: flex;
+  
 }
 
 #imgdiv img {
